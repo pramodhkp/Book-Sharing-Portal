@@ -19,7 +19,7 @@ def feed(request):
 	    )
 	logging.basicConfig(level=logging.DEBUG, format=logging_format)
 	error= False
-	if not request.POST['update'] == "" and request.POST['update'] is not None:
+	if not request.POST['update'].strip() == "" and request.POST['update'] is not None:
 		logging.debug(request.POST)
 		user = request.user
 		update = request.POST["update"]
