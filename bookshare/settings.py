@@ -22,15 +22,26 @@ ADMINS = (
 )
 MANAGERS = ADMINS
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'mydb',              
+#         'USER': 'postgres',
+#         'PASSWORD': 'praday',
+#         'HOST': 'localhost',
+#         'PORT': '',
+#     }
+# }
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'mydb',              
-        'USER': 'postgres',
-        'PASSWORD': 'praday',
-        'HOST': 'localhost',
-        'PORT': '',
-    }
+  'default': {
+    'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    'NAME': 'd9jkp0jek2h3ag',
+    'HOST': 'ec2-23-21-85-233.compute-1.amazonaws.com',
+    'PORT': 5432,
+    'USER': 'npkgotfifkrwtj',
+    'PASSWORD': 'vRAH4qJglocQ7xYbt4u9Yy8VYT'
+  }
 }
 
 TIME_ZONE = 'America/Chicago'
