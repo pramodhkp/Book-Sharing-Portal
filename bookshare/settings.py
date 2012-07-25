@@ -9,7 +9,7 @@ except ImportError:
 import dj_database_url
 # DATABASES = {'default': dj_database_url.config()}
 # DATABASES = {'default': dj_database_url.parse('postgres://localhost')}
-DATABASES = {'default': dj_database_url.config(default='postgres://localhost')}
+DATABASES = {'default': dj_database_url.config(default='postgres://npkgotfifkrwtj:vRAH4qJglocQ7xYbt4u9Yy8VYT@ec2-23-21-85-233.compute-1.amazonaws.com:5432/d9jkp0jek2h3ag')}
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
