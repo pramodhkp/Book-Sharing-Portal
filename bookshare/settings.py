@@ -51,7 +51,7 @@ SITE_ID = 1
 USE_I18N = True
 USE_L10N = True
 
-MEDIA_ROOT = '/home/u/bookshare/bookshare/assets/'
+MEDIA_ROOT = '/app/bookshare/assets/'
 ADMIN_MEDIA_PREFIX = '/media/'
 MEDIA_URL = '/assets/'
 
