@@ -8,7 +8,8 @@ except ImportError:
 
 import dj_database_url
 # DATABASES = {'default': dj_database_url.config()}
-DATABASES = {'default': dj_database_url.parse('postgres://localhost')}
+# DATABASES = {'default': dj_database_url.parse('postgres://localhost')}
+DATABASES = {'default': dj_database_url.config(default='postgres://localhost')}
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
