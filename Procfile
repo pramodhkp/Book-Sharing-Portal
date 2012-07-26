@@ -1,1 +1,1 @@
-web: python bookshare/manage.py runserver "0.0.0.0:$PORT" --noreload
+web: python bookshare/manage.py runserver --adminmedia=/app/bookshare/assets/media/ "0.0.0.0:$PORT" --noreload
