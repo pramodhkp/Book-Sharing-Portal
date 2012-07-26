@@ -52,7 +52,8 @@ USE_I18N = True
 USE_L10N = True
 
 MEDIA_ROOT = '/app/bookshare/assets/'
-ADMIN_MEDIA_PREFIX = '/assets/media/'
+ADMIN_MEDIA_ROOT = os.path.join(PROJECT_ROOT, '/assets/media/')
+ADMIN_MEDIA_PREFIX = '/media/'
 MEDIA_URL = '/assets'
 
 SECRET_KEY = 't2eo^kd%k+-##ml3@_x__$j0(ps4p0q6eg*c4ttp9d2n(t!iol'
